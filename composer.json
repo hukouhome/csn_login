@@ -1,0 +1,14 @@
+{
+  "name": "drupal/csn_login",
+  "type": "drupal-module",
+  "description": "Allows your users to register and login with China Social Network",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/csn_login",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/csn_login",
+    "source": "http://cgit.drupalcode.org/csn_login"
+  },
+  "require": { }
+}

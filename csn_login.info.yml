@@ -1,0 +1,5 @@
+name: CSN Login
+type: module
+description: Allows your users to register and login with China Social Network
+core: 8.x
+package: Custom

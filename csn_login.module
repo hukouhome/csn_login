@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains csn_login.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function csn_login_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the csn_login module.
+    case 'help.page.csn_login':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Allows your users to register and login with China Social Network') . '</p>';
+      return $output;
+
+    default:
+  }
+}
